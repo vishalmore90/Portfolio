@@ -135,10 +135,10 @@ export default function Hero() {
                 alt="Vishal More - DevOps Engineer"
                 width="400"
                 height="400"
-                className="w-full max-w-xs h-auto rounded-full shadow-2xl bg-white/70 dark:bg-gray-900/50 p-2 object-contain"
+                className="w-full max-w-sm md:max-w-[360px] h-auto rounded-full shadow-2xl bg-white/70 dark:bg-gray-900/50 p-2 object-contain"
                 loading="lazy"
                 decoding="async"
-                whileHover={{ scale: 1.1, rotate: 5 }}
+                whileHover={{ scale: 1.05, rotate: 3 }}
                 transition={{ type: "spring", stiffness: 300, damping: 15 }}
               />
             </motion.div>
