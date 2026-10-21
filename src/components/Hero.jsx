@@ -67,30 +67,11 @@ export default function Hero() {
               className="text-3xl md:text-5xl font-bold relative bg-gradient-to-r from-gray-700 to-gray-900 dark:from-gray-200 dark:to-white bg-clip-text text-transparent"
             >
               <EncryptedText
-                text="DevOps Engineer & Cloud-Native Developer"
+                text="DevOps Engineer"
                 revealDelayMs={140}
                 encryptedClassName="text-gray-500 dark:text-gray-500"
                 revealedClassName="bg-gradient-to-r from-gray-700 to-gray-900 dark:from-gray-200 dark:to-white bg-clip-text text-transparent"
               />
-
-              <motion.div
-                initial={{ opacity: 0, x: 16 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 1 }}
-                className="hidden lg:block absolute -right-32 top-0 rotate-12"
-                style={{ fontFamily: "Caveat, cursive" }}
-              >
-                <p className="text-blue-400 text-2xl">Passionate about Open Source & K8s! ⚙️</p>
-                <svg
-                  width="60"
-                  height="40"
-                  viewBox="0 0 60 40"
-                  className="mt-2 text-blue-400 fill-none stroke-current"
-                >
-                  <path d="M5 5 C 20 30, 40 35, 55 10" strokeWidth="2" strokeLinecap="round" />
-                  <path d="M50 15 L 55 10 L 48 8" strokeWidth="2" strokeLinecap="round" />
-                </svg>
-              </motion.div>
             </motion.div>
 
             <motion.div
