@@ -67,7 +67,7 @@ export default function Hero() {
               className="text-3xl md:text-5xl font-bold relative bg-gradient-to-r from-gray-700 to-gray-900 dark:from-gray-200 dark:to-white bg-clip-text text-transparent"
             >
               <EncryptedText
-                text="DevOps Engineer &  Developer"
+                text="DevOps Engineer & Software Developer"
                 revealDelayMs={140}
                 encryptedClassName="text-gray-500 dark:text-gray-500"
                 revealedClassName="bg-gradient-to-r from-gray-700 to-gray-900 dark:from-gray-200 dark:to-white bg-clip-text text-transparent"
