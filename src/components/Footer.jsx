@@ -7,7 +7,7 @@ export default function Footer() {
     {
       title: 'Social',
       links: [
-        { name: 'LinkedIn', href: 'https://www.linkedin.com/in/vishalmore90/', icon: Linkedin },
+        { name: 'LinkedIn', href: 'https://www.linkedin.com/in/vishalmore901/', icon: Linkedin },
         { name: 'X (Twitter)', href: 'https://x.com/vishalmore901', icon: Twitter },
       ],
     },
