@@ -133,9 +133,9 @@ export default function Hero() {
               <motion.img
                 src="./me.png"
                 alt="Vishal More - DevOps Engineer"
-                width="400"
-                height="400"
-                className="w-full max-w-sm md:max-w-[360px] h-auto rounded-full shadow-2xl bg-white/70 dark:bg-gray-900/50 p-2 object-contain"
+                width="450"
+                height="450"
+                className="w-full max-w-[400px] md:max-w-[440px] h-auto rounded-full shadow-2xl bg-white/70 dark:bg-gray-900/50 p-2 object-contain"
                 loading="lazy"
                 decoding="async"
                 whileHover={{ scale: 1.05, rotate: 3 }}
