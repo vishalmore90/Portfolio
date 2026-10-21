@@ -67,7 +67,7 @@ export default function Hero() {
               className="text-3xl md:text-5xl font-bold relative bg-gradient-to-r from-gray-700 to-gray-900 dark:from-gray-200 dark:to-white bg-clip-text text-transparent"
             >
               <EncryptedText
-                text="DevOps Engineer"
+                text="DevOps Engineer &  Developer"
                 revealDelayMs={140}
                 encryptedClassName="text-gray-500 dark:text-gray-500"
                 revealedClassName="bg-gradient-to-r from-gray-700 to-gray-900 dark:from-gray-200 dark:to-white bg-clip-text text-transparent"
@@ -130,17 +130,17 @@ export default function Hero() {
             className="flex justify-center items-center relative h-[500px] w-full"
           >
             <motion.div className="relative z-10">
-                <motion.img
-                  src="./me.png"
-                  alt="Vishal More - DevOps Engineer"
-                  width="400"
-                  height="400"
-                  className="w-full max-w-xs h-auto rounded-full shadow-2xl bg-white/70 dark:bg-gray-900/50 p-2 object-contain"
-                  loading="lazy"
-                  decoding="async"
-                  whileHover={{ scale: 1.1, rotate: 5 }}
-                  transition={{ type: "spring", stiffness: 300, damping: 15 }}
-                />
+              <motion.img
+                src="./me.png"
+                alt="Vishal More - DevOps Engineer"
+                width="400"
+                height="400"
+                className="w-full max-w-xs h-auto rounded-full shadow-2xl bg-white/70 dark:bg-gray-900/50 p-2 object-contain"
+                loading="lazy"
+                decoding="async"
+                whileHover={{ scale: 1.1, rotate: 5 }}
+                transition={{ type: "spring", stiffness: 300, damping: 15 }}
+              />
             </motion.div>
           </motion.div>
         </div>
