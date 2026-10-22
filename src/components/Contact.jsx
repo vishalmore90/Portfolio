@@ -262,7 +262,7 @@ export default function Contact() {
                     asChild
                     className="bg-white text-gray-900 hover:bg-gray-100"
                   >
-                    <a href="https://github.com/vishalmore90" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/drive/u/0/folders/1AdwZEwRKRFTqQYn-uEYy9pmKlDpdaU3k" target="_blank" rel="noopener noreferrer">
                       Download Resume
                     </a>
                   </Button>
